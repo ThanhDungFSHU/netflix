@@ -21,7 +21,7 @@ export default function TrendingCard({ item, category }) {
 
   return (
     <Card
-      sx={{ maxWidth: 345, height: 385, backgroundColor: "white" }}
+      sx={{ maxWidth: 345, height: 385, backgroundColor: "black" }}
       onClick={handleClick}
     >
       <CardActionArea LinkComponent={Link} to={`/movie/${item.id}`}>
